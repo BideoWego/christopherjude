@@ -1,0 +1,31 @@
+---
+layout: default
+css_id: not-found
+---
+
+<header class="page-header">
+  <h1>
+    I'm Christopher Ju.de
+    <small>
+      Hi.
+    </small>
+  </h1>
+</header>
+
+<ul>
+  {% for category in site.data.categories %}
+    <li>{{ category }}</li>
+  {% endfor %}
+</ul>
+
+<ul>
+  {% for tag in site.data.tags %}
+    <li>{{ tag }}</li>
+  {% endfor %}
+</ul>
+
+<blockquote>
+  <p>This is my website.</p>
+  <footer>Christoper Ju.de</footer>
+</blockquote>
+
