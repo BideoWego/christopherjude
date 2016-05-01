@@ -1,0 +1,44 @@
+// ----------------------------------------
+// Projects
+// ----------------------------------------
+
+.project {
+  img {
+    width: 128px;
+    height: 128px;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .project {
+    .media-body,
+    .media-left,
+    .media-right {
+      display: block;
+    }
+    .media-body {
+      width: 100%;
+    }
+    .media-heading {
+      margin-top: 16px;
+      margin-bottom: 16px;
+    }
+    .media-heading,
+    .links {
+      text-align: center;
+    }
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  .project {
+    border: 1px solid transparent;
+    height: 256px;
+  }
+}
+
+
+
+
+

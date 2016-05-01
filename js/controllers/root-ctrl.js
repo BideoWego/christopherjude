@@ -4,10 +4,10 @@
 
 
 ChristopherJude.controller('RootCtrl',
-  ['$scope',
-  function($scope) {
+  ['$scope', 'me',
+  function($scope, me) {
 
-    
+    $scope.me = me;
 
   }]);
 

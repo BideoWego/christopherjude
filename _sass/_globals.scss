@@ -1,0 +1,86 @@
+// ----------------------------------------
+// Globals
+// ----------------------------------------
+
+
+html,
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+blockquote {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 32px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 28px;
+}
+h4 {
+  font-size: 26px;
+}
+h5 {
+  font-size: 24px;
+}
+h6 {
+  font-size: 22px;
+}
+
+p,
+blockquote,
+span,
+li,
+div,
+header,
+footer,
+article {
+  font-size: 18px;
+}
+
+img {
+  border-radius: 4px;
+  box-shadow: 1px 2px 2px $dark;
+}
+
+img.icon {
+  max-width: 32px;
+  box-shadow: none;
+}
+img.icon.xs {
+  max-width: 8px;
+}
+img.icon.sm {
+  max-width: 16px;
+}
+img.icon.md {
+  max-width: 32px;
+}
+img.icon.lg {
+  max-width: 48px;
+}
+img.icon.md {
+  max-width: 64px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+
+.page-header {
+  border-bottom: 1px solid transparent;
+}
+
+
+

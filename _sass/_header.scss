@@ -1,0 +1,37 @@
+// ----------------------------------------
+// Header
+// ----------------------------------------
+
+#main-header {
+  margin-top: 64px;
+  .media {
+    max-width: 768px;
+    margin: 0 auto;
+  }
+
+  .media-object {
+    max-width: 256px;
+    border-radius: 8px;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  #main-header {
+    .media-object {
+      max-width: 256px;
+      margin: 0 auto;
+    }
+    .media-body {
+      overflow: visible;
+      word-wrap: break-word;
+      text-align: center;
+    }
+    .media-left,
+    .media-body {
+      display: block;
+      width: 100%;
+    }
+  }
+}
+

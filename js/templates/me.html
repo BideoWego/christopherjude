@@ -4,26 +4,30 @@
       <img class="media-object img-reponsive" src="/images/me.jpg" alt="Christopher Jude">
     </div>
     <div class="media-body">
-      <h1 class="media-heading">Christopher Jude Scavello</h1>
+      <h1 class="media-heading">
+        {{ me.first_name }}
+        {{ me.middle_name }}
+        {{ me.last_name }}
+      </h1>
       
-      <h2>Web Developer</h2>
+      <h2>{{ me.occupation }}</h2>
 
-      <h3><a href="mailto:global.chrisscavello@gmail.com">global.chrisscavello@gmail.com</a></h3>
+      <h3><a ng-href="mailto:{{ me.email }}" title="Email me">{{ me.email }}</a></h3>
 
       <h3>
-        <a href="http://bideowego.com">Bideo Wego</a>
-        <img class="icon" src="http://bideowego.com/favicon-96x96.png" alt="Bideo Wego">
+        <a ng-href="{{ me.site.url }}" title="Visit my site">{{ me.site.name }}</a>
+        <img class="icon" ng-src="{{ me.site.image.url }}" alt="{{ me.site.image.alt }}">
       </h3>
 
       <h2>
-        <a href="https://github.com/Bideowego">
-          <i class="fa fa-github"></i>
+        <a ng-href="{{ me.github.url }}" title="My Github">
+          <i class="fa fa-2x" ng-class="'fa-' + me.github.icon"></i>
         </a>
-        <a href="https://www.linkedin.com/in/chrisscavello">
-          <i class="fa fa-linkedin"></i>
+        <a ng-href="{{ me.linkedin.url }}" title="My LinkedIn">
+          <i class="fa fa-2x" ng-class="'fa-' + me.linkedin.icon"></i>
         </a>
-        <a href="https://twitter.com/BideoWego">
-          <i class="fa fa-twitter"></i>
+        <a ng-href="{{ me.twitter.url }}" title="My Twitter">
+          <i class="fa fa-2x" ng-class="'fa-' + me.twitter.icon"></i>
         </a>
       </h2>
     </div>

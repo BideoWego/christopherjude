@@ -1,0 +1,173 @@
+{
+  "me": {
+    "first_name": "Christopher",
+    "middle_name": "Jude",
+    "last_name": "Scavello",
+    "occupation": "Full Stack Developer",
+    "email": "global.chrisscavello@gmail.com",
+    "site": {
+      "url": "http://bideowego.com",
+      "name": "Bideo Wego",
+      "image": {
+        "url": "http://bideowego.com/favicon-96x96.png",
+        "alt": "Bideo Wego"
+      }
+    },
+    "github": {
+      "url": "https://github.com/Bideowego",
+      "name": "Github",
+      "icon": "github"
+    },
+    "linkedin": {
+      "url": "https://www.linkedin.com/in/chrisscavello",
+      "name": "LinkedIn",
+      "icon": "linkedin"
+    },
+    "twitter": {
+      "url": "https://twitter.com/BideoWego",
+      "name": "Twitter",
+      "icon": "twitter"
+    },
+    "summary": "Creativity has always been what drives me. I can remember the first thing I wanted to be when I grew up, a programmer. The role of creativity in my life has never been so clear to me. Some of the happiest moments of my life have surrounded the creation of something beautiful and elegant. Sharing those creations through the web and the open-source community is equally rewarding.",
+    "blog": {
+      "name": "Bideo Wego",
+      "url": "http://bideowego.com",
+      "image": {
+        "url": "http://bideowego.com/favicon-96x96.png",
+        "alt": "Bideo Wego Blog"
+      },
+      "tagline": "Programmatic creativity that is always developing.",
+      "description": "Bideo Wego is my personal site and blog. I frequently write about my projects and programming explorations there. It is built with Jekyll and AngularJS."
+    },
+    "projects": [
+      {
+        "name": "Danebook",
+        "site": "https://bideowego-danebook.herokuapp.com/signup",
+        "repo": "https://github.com/BideoWego/danebook",
+        "image": {
+          "url": "https://s3.amazonaws.com/bw.bideowego/images/danebook.png",
+          "alt": "Danebook"
+        },
+        "description": "A social network app for the Danish of course!"
+      },
+      {
+        "name": "Viking Store",
+        "site": "https://bideowego-viking-store.herokuapp.com/admin",
+        "repo": "https://github.com/BideoWego/project_viking_store",
+        "image": {
+          "url": "https://s3.amazonaws.com/bw.bideowego/images/viking-store.png",
+          "alt": "Viking Store"
+        },
+        "description": "An eCommerce store for vikings to by the essentials."
+      },
+      {
+        "name": "Uber Food Truck Challenge",
+        "site": "https://uber-food-truck-challenge.herokuapp.com/",
+        "repo": "https://github.com/BideoWego/uber_food_truck_challenge",
+        "image": {
+          "url": "https://s3.amazonaws.com/bw.bideowego/images/uber-food-truck-challenge.jpg",
+          "alt": "Uber Food Truck Challenge"
+        },
+        "description": "A 24hr coding challenge from Uber using the Google maps API and SF Open Data."
+      },
+      {
+        "name": "Othello",
+        "site": "http://bideowego-othello.surge.sh/",
+        "repo": "https://github.com/BideoWego/othello",
+        "image": {
+          "url": "https://s3.amazonaws.com/bw.bideowego/images/othello-game-with-angularjs.jpg",
+          "alt": "Othello"
+        },
+        "description": "An AngularJS powered version of the popular game Othello, also known as Reversi."
+      }
+    ],
+    "skills": {
+      "core": [
+        "Git",
+        "Ruby",
+        "JavaScript",
+        "HTML/HTML5",
+        "CSS/CSS3 - SCSS/SASS",
+        "NodeJS",
+        "SQL",
+        "Agile Development"
+      ],
+      "databases": [
+        "PostgreSQL",
+        "MySQL"
+      ],
+      "tdd": [
+        "RSpec",
+        "Jasmine",
+        "Karma",
+        "QUnit",
+        "Capybara"
+      ],
+      "platforms": [
+        "AWS",
+        "Heroku"
+      ],
+      "frameworks": [
+        "Ruby on Rails",
+        "Sinatra",
+        "AngularJS",
+        "ExpressJS",
+        "jQuery",
+        "Bootstrap"
+      ],
+      "tools": [
+        "Sublime Text",
+        "Slack",
+        "Balsamiq Mockups"
+      ],
+      "experience_with": [
+        "Unix",
+        "Bash",
+        "PHP",
+        "C/C++",
+        "Objective-C",
+        "Python",
+        "LESS",
+        "MongoDB"
+      ]
+    },
+    "work_experiences": [
+      {
+        "name": "Viking Code School",
+        "position": "Hacker in Residence",
+        "start_date": "2016-01-04",
+        "end_date": "2016-05-07",
+        "responsibilities": [
+          "Live debugging of student projects via Google Hangouts",
+          "Live student question answering via Google Hangouts",
+          "Curriculum creation and maintenance",
+          "Assignment solution creation and maintenance",
+          "Student assessment/test creation and maintenance",
+          "Grade student assessments",
+          "Lead scrums/code reviews",
+          "Oversee student scrums/code reviews"
+        ]
+      }
+    ],
+    "educations": [
+      {
+        "name": "Viking Code School",
+        "site": {
+          "url": "https://www.vikingcodeschool.com"
+        },
+        "certification": "Computer Software Engineering, 2015 - 2015"
+      },
+      {
+        "name": "West Chester University",
+        "site": {
+          "url": "https://www.wcupa.edu"
+        },
+        "certification": "Bachelor of Arts (B.A.), Music Theory and Composition, Cum Laude, 2003 - 2008"
+      }
+    ],
+    "languages": [
+      "English (Native or bilingual proficiency)",
+      "Spanish (Professional working proficiency)"
+    ]
+  }
+}

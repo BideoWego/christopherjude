@@ -2,71 +2,14 @@
 #
 ---
 
-html,
-body,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-span,
-blockquote {
-  font-family: 'Open Sans', sans-serif;
-  font-weight: 300;
-}
-
-img.icon {
-  max-width: 32px;
-}
-
-#main-header {
-  margin-top: 64px;
-
-  .media {
-    max-width: 768px;
-    margin: 0 auto;
-  }
-
-  .media-object {
-    max-width: 256px;
-    border-radius: 8px;
-  }
-}
-
-@media only screen and (min-width: 1025px) {
-  #main-header {
-    margin-top: 256px;
-  }
-}
-
-
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-  #main-header {
-    margin-top: 196px;
-  }
-}
-
-
-@media only screen and (max-width: 768px) {
-  #main-header {
-    .media-object {
-      max-width: 256px;
-      margin: 0 auto;
-    }
-    .media-body {
-      overflow: visible;
-      word-wrap: break-word;
-      text-align: center;
-    }
-    .media-left,
-    .media-body {
-      display: block;
-      width: 100%;
-    }
-  }
-}
+@import
+  'colors',
+  'globals',
+  'header',
+  'panels',
+  'projects',
+  'home'
+;
 
 
 
