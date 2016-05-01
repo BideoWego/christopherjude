@@ -8,6 +8,12 @@
     height: 128px;
     margin: 0 auto;
   }
+
+  .description {
+    margin-top: 32px;
+    margin-bottom: 32px;
+    text-align: center;
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -34,7 +40,7 @@
 @media only screen and (min-width: 769px) {
   .project {
     border: 1px solid transparent;
-    height: 256px;
+    height: 384px;
   }
 }
 

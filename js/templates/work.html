@@ -1,0 +1,33 @@
+<header class="page-header text-center">
+  <h1>Work Experience</h1>  
+</header>
+
+<div class="row work-experiences">
+  <div class="col-xs-12" ng-repeat="job in me.work_experiences">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h2 class="panel-title">
+          <small>
+            {{ job.start_date | date: 'MMMM d, yyyy' }}
+            -
+            {{ job.end_date | date: 'MMMM d, yyyy' }}
+          </small>
+
+          {{ job.position }}
+          at
+          <a ng-href="{{ job.site.url }}">{{ job.name }}</a>
+        </h2>
+      </div>
+      <div class="panel-body">
+        <h5>Responsibilities:</h5>
+        <ul class="list-group">
+          <li class="list-group-item" ng-repeat="responsibility in job.responsibilities">{{ responsibility }}</li>
+        </ul>
+      </div>
+    </div>
+  </div>  
+</div>
+
+
+
+

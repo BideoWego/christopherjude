@@ -13,6 +13,7 @@ description: >
 baseurl: /
 url: http://christopherju.de
 
+
 # Build settings
 markdown: kramdown
 permalinks: pretty

@@ -30,6 +30,14 @@ ChristopherJude.config(
           "projects": {
             controller: 'RootCtrl',
             templateUrl: '/js/templates/projects.html'
+          },
+          "skills": {
+            controller: 'RootCtrl',
+            templateUrl: '/js/templates/skills.html'
+          },
+          "work": {
+            controller: 'RootCtrl',
+            templateUrl: '/js/templates/work.html'
           }
         },
         resolve: {

@@ -1,0 +1,21 @@
+<header class="page-header text-center">
+  <h2>Skills</h2>
+</header>
+
+
+<div class="row skills">
+  <div class="col-sm-2" ng-repeat="(skillName, skills) in me.skills">
+    <div class="panel panel-primary text-center">
+      <div class="panel-heading">
+        <h2 class="panel-title">{{ skillName.titleize() }}:</h2>
+      </div>
+      <div class="panel-body">
+        <p ng-repeat="skill in skills">{{ skill }}</p>
+      </div>
+    </div>
+  </div>  
+</div>
+
+
+
+

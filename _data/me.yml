@@ -1,6 +1,17 @@
 ---
 
 # ----------------------------------------
+# Resume
+# ----------------------------------------
+
+resume:
+  docx:
+    url: /resume/Christopher-Jude-Scavello-Resume.docx
+  html:
+    url: /resume/index.html
+
+
+# ----------------------------------------
 # Me
 # ----------------------------------------
 first_name: &first_name Christopher
@@ -121,11 +132,11 @@ skills:
     - Heroku
   frameworks:
     - Ruby on Rails
-    - Sinatra
     - AngularJS
-    - ExpressJS
     - jQuery
     - Bootstrap
+    - Sinatra
+    - ExpressJS
   tools:
     - Sublime Text
     - Slack
@@ -148,6 +159,8 @@ skills:
 work_experiences:
   -
     name: Viking Code School
+    site:
+      url: https://vikingcodeschool.com
     position: Hacker in Residence
     start_date: 2016-01-04
     end_date: 2016-05-07
@@ -173,11 +186,15 @@ educations:
     site:
       url: https://www.vikingcodeschool.com
     certification: Computer Software Engineering, 2015 - 2015
+    start_date: 2015-08-01
+    end_date: 2015-12-31
   -
     name: West Chester University
     site:
       url: https://www.wcupa.edu
     certification: Bachelor of Arts (B.A.), Music Theory and Composition, Cum Laude, 2003 - 2008
+    start_date: 2003-09-01
+    end_date: 2008-06-01
 
 
 # ----------------------------------------
