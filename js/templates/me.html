@@ -9,7 +9,7 @@
         {{ me.middle_name }}
         {{ me.last_name }}
       </h1>
-      
+
       <h2>{{ me.occupation }}</h2>
 
       <h3><a ng-href="mailto:{{ me.email }}" title="Email me">{{ me.email }}</a></h3>
@@ -30,13 +30,6 @@
           <i class="fa fa-2x" ng-class="'fa-' + me.twitter.icon"></i>
         </a>
       </h2>
-
-      <h6>
-        <a ng-href="{{ me.resume.docx.url }}">
-          <i class="fa fa-download"></i>
-          Download my resume as a Word Document
-        </a>
-      </h6>
     </div>
   </div>
 </header>
